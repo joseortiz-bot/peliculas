@@ -8,9 +8,6 @@ The App displays a scrolling grid of movie posters, when a movie is selected a d
 
 This app utilizes the themoviedb.org web API core Android user interface components and fetches movie information using .
 
-## Tech-Stack
-<img src="https://media.giphy.com/media/nMuCPHmkBhoYOU6pQs/giphy.gif" width="300" align="right" hspace="20">
-
 - Kotlin
 - Dagger 2 (For Dependency Injection)
 - rxJava (For Managing Background Tasks)
@@ -30,7 +27,7 @@ To preview the app please download your own API key from themoviedb.org
 Create a util package in (data/src/main/java/com/gnova/data) if it doesn't already exist and create a Constants kotlin object in that util folder and put your API key there like so:
 
 ```Kotlin
-object Constants {
+en  Objeto Const cambie su API_KEY
 
     const val API_KEY =  "yourApiKeyHere"
 }
